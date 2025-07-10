@@ -21,7 +21,7 @@ namespace Methgods_Advanced
             return employee;
         }
 
-        public static Employee UpdateEmployee(Employee employee)
+        public static Employee GetUpdateEmployee(Employee employee)
         {
             employee.Name = employee.Name + " " + "Narupalle";
             return employee;
@@ -34,7 +34,7 @@ namespace Methgods_Advanced
             var singleEmployee = AboutEmployee.GetEmployee();
             Console.WriteLine($"single employee: {singleEmployee.Name}, {singleEmployee.Experience}, {singleEmployee.Package}");
 
-            var updatedEmployee = AboutEmployee.UpdateEmployee(singleEmployee);
+            var updatedEmployee = AboutEmployee.GetUpdateEmployee(singleEmployee);
             Console.WriteLine($"Updated Employee name is: {updatedEmployee.Name}");
         }
 
