@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsyncCalculatorExample.Program</StartupObject>
+    <StartupObject>TaskDelayNamespace.TaskDelayClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,13 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncandAwait\1.Synchronous.cs" />
-    <Compile Include="AsyncandAwait\2. Asynchronous.cs" />
+    <Compile Include="Asynccalls\1ThreadSleep.cs" />
+    <Compile Include="Asynccalls\2TaskDelay.cs" />
+    <Compile Include="Asynchronouscalls\1Asyncrocalls.cs" />
     <Compile Include="methods\1methods.cs" />
     <Compile Include="methods\2methodsAdvanced.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RefandOut\1ref_out.cs" />
+    <Compile Include="synchronouscalls\1syncrcalls.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
