@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Methods_Three</StartupObject>
+    <StartupObject>AsyncCalculatorExample.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncandAwait\1.Synchronous.cs" />
+    <Compile Include="AsyncandAwait\2. Asynchronous.cs" />
     <Compile Include="methods\1methods.cs" />
     <Compile Include="methods\2methodsAdvanced.cs" />
     <Compile Include="Program.cs" />
